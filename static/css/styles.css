@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #101827;
+  color: #e5e7eb;
+  margin: 0;
+  padding: 2rem;
+}
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+textarea, select, button {
+  width: 100%;
+  margin-top: 0.75rem;
+  padding: 0.8rem;
+  border-radius: 8px;
+  border: 1px solid #334155;
+  background: #0f172a;
+  color: #e2e8f0;
+}
+button {
+  background: #2563eb;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+#result {
+  margin-top: 1rem;
+  background: #111827;
+  border: 1px solid #374151;
+  border-radius: 8px;
+  padding: 1rem;
+}

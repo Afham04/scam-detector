@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scam Detector</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>AI Scam Message Detector</h1>
+    <label for="platform">Platform</label>
+    <select id="platform">
+      <option value="general">General</option>
+      <option value="whatsapp">WhatsApp</option>
+      <option value="sms">SMS</option>
+      <option value="email">Email</option>
+    </select>
+
+    <textarea id="message" rows="8" placeholder="Paste a suspicious message..."></textarea>
+    <button id="scan">Scan Message</button>
+    <div id="result"></div>
+  </div>
+  <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
